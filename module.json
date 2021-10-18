@@ -1,0 +1,13 @@
+{
+    "name": "log-chat",
+    "author": "HSDN",
+    "description": "Log Chat.",
+    "options": {
+        "niceName": "Log Chat",
+        "settingsVersion": 1,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js"
+    },
+    "servers": ["https://raw.githubusercontent.com/hsdn/log-chat/master/"],
+    "disableAutoUpdate": false
+}
