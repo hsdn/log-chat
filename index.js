@@ -35,8 +35,8 @@ module.exports = function logChat(mod) {
 		}
 	});
 
-	mod.hook("S_WHISPER", 4, { "order": Infinity, "filter": { "fake": null } }, sChat);
-	mod.hook("S_CHAT", 4, { "order": Infinity, "filter": { "fake": null } }, sChat);
+	mod.hook("S_WHISPER", mod.majorPatchVersion >= 108 ? 4 : 3, { "order": Infinity, "filter": { "fake": null } }, sChat);
+	mod.hook("S_CHAT", mod.majorPatchVersion >= 108 ? 4 : 3, { "order": Infinity, "filter": { "fake": null } }, sChat);
 	mod.hook("S_PRIVATE_CHAT", 1, { "order": Infinity, "filter": { "fake": true } }, sChat);
 
 	function sChat(event) {

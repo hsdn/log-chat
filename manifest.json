@@ -1,7 +1,7 @@
 {
     "files": {
         "README.md": "3c836d27cb9d91ab767a2877d7abe6fa825ef651a22cb40d003b8ae447934002",
-        "index.js": "11e5b2409c6b398a703f40fc66b7def855b15b4f512fbd9f405e72a1065d92fc",
+        "index.js": "63af8ad141f6eeda7664a4affb7c73913a481431f81b5005618838563eb747f6",
         "module.json": "967304e79bc4957e8416e103c64868cb03e3fc26c8ce92a07b81e647f5955d28",
         "node_modules/html-entities/CHANGELOG.md": "c77b12d9ac0704b19a33ae2cdec0fba9e1947df8cfac11a60a73b99b798309a3",
         "node_modules/html-entities/LICENSE": "10b2831912dc4dc91b25429511e6c74f901eebf64b625328f8fd08dd9c3cf8fe",
@@ -17,8 +17,8 @@
         "settings_migrator.js": "9079c0a6a21a122492152ed10dfcf4628a67b59ee8a928fc5efd3a2e9b52605c"
     },
     "defs": {
-        "S_CHAT": 4,
+        "S_CHAT": 3,
         "S_PRIVATE_CHAT": 1,
-        "S_WHISPER": 4
+        "S_WHISPER": 3
     }
 }
